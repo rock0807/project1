@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Bootstrap Example</title>
+    <style>
+        #card1{
+            margin-left: 2pc;
+        }
+     #card2{
+        margin-top: -39pc;
+        margin-left: 33%;
+     }
+     #card3{
+        margin-top: -39pc;
+        margin-left: 66%;
+     }
+     form{
+        margin-top: 4pc;
+        margin-left: 2pc;
+        margin-right: 2pc;
+        margin-bottom: 2pc;
+        
+     }
+     .table{
+        width: auto;
+        margin-top: 4pc;
+        margin-left: 2pc;
+        margin-right: 4pc;
+        margin-bottom: 2pc;
+           
+     }
+     #text{
+        margin-left: 5pc;
+        margin-right: 5pc;
+     }
+       #heading{
+        margin-left: 8pc;
+       } 
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Contact</a>
+            </li>
+          </ul>
+         
+        </div>
+      </nav>
+      <div >
+        <h1 style="margin-left: 24pc;">Bootstrap Example</h1>
+        <center>  
+            <img src="data:image/jpeg;base64,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" 
+            style="width:600px; height: 300px;">
+        </center>
+      
+        <h4 id="heading">Some Content</h4>
+        <div id="text" style="text-align:center;">
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ab odit, inventore ipsam quisquam eos laborum impedit voluptas quas sed, fuga est ipsum nulla iure. Quae distinctio repellendus, ad itaque cum autem aliquid aliquam neque corporis quibusdam consequatur, culpa, cupiditate iste minus quaerat consectetur illo accusamus. Quo cum possimus iure. Dolorem consequuntur, et placeat corrupti odit sunt pariatur exercitationem velit, dolor voluptate obcaecati amet quas accusantium perferendis? Nihil, atque ab fugiat officia eligendi quibusdam distinctio, beatae blanditiis, ratione voluptate velit ea? Molestias officiis nobis fugiat iste quae, in placeat possimus, impedit, incidunt voluptates repellendus earum dicta! Expedita distinctio voluptate sed.</p>    
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem eveniet ullam, harum exercitationem minima similique facere velit quaerat dolor laborum. Aliquid dignissimos maiores sequi pariatur praesentium consequuntur. Rem alias sequi libero fugit nisi. Non, cumque magni eos ipsa soluta temporibus.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;" id="card1">
+        <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" id="card2">
+        <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" id="card3">
+        <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <form>
+        <div class="form-group"> 
+            <h3>Form</h3>
+            <label for="exampleInputPassword1">Name</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email ">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Message</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your message">
+          </div>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Jhon Smith</td>
+            <td>jhon@example.com</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jane Doe</td>
+            <td>jane@example.com</td>
+            <td>lorem7</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Bob Johnson</td>
+            <td>bob@example.com</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, rerum!</td>
+          </tr>
+        </tbody>
+      </table>
+      
+</body>
+</html>
+
